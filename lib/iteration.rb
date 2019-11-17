@@ -14,7 +14,7 @@ def join_ingredients(src)
     new_array << new_string
     row_index += 1
   end #=> nil
-  
+
 end
 
 def find_greater_pair(src)
