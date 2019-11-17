@@ -47,4 +47,16 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+
+  row_index = 0
+  sum = 0
+  while row_index < src.count do
+    if src[row_index][0]%2 == 0 && src[row_index][1]%2 == 0
+      sum += src[row_index][0] + src[row_index][1]
+    end
+    row_index += 1
+  end #=> nil
+
+  sum
+  
 end
